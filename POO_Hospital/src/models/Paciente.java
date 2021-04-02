@@ -25,30 +25,6 @@ public class Paciente extends Persona{
         this.Cod_Paciente = Cod_Paciente;
     }
 
-    public String getDNI() {
-        return DNI;
-    }
-
-    public void setDNI(String DNI) {
-        this.DNI = DNI;
-    }
-
-    public String getNombre() {
-        return Nombre;
-    }
-
-    public void setNombre(String Nombre) {
-        this.Nombre = Nombre;
-    }
-
-    public String getApellido() {
-        return Apellido;
-    }
-
-    public void setApellido(String Apellido) {
-        this.Apellido = Apellido;
-    }
-
     public int getEdad() {
         return Edad;
     }
@@ -71,14 +47,5 @@ public class Paciente extends Persona{
 
     public void setDireccion(String Direccion) {
         this.Direccion = Direccion;
-    }
-
-    public String getTelefono() {
-        return Telefono;
-    }
-
-    public void setTelefono(String Telefono) {
-        this.Telefono = Telefono;
-    }
-    
+    }   
 }
