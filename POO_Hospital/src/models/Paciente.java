@@ -1,23 +1,10 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package models;
 
-/**
- *
- * @author samic
- */
-public class Paciente {
+public class Paciente extends Persona{
     private int Cod_Paciente;
-    private String DNI;
-    private String Nombre;
-    private String Apellido;
     private int Edad;
     private String Sexo;
     private String Direccion;
-    private String Telefono;
 
     public Paciente(int Cod_Paciente, String DNI, String Nombre, String Apellido, int Edad, String Sexo, String Direccion, String Telefono) {
         this.Cod_Paciente = Cod_Paciente;
