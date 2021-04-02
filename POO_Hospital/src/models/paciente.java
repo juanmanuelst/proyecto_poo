@@ -1,14 +1,12 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package models;
 
-/**
- *
- * @author mrobl
- */
-public class paciente {
-    
+public class Paciente {
+    private int Cod_Pacientes;
+    private String DNI;
+    private String Nombre;
+    private String Apellido;
+    private int Edad;
+    private String Sexo;
+    private String Direccion;
+    private String Telefono;
 }
