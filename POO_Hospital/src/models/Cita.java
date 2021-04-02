@@ -5,13 +5,15 @@ public class Cita {
     private int Cod_Cita;
     private int Cod_Paciente;
     private int Cod_Doctor ;
+    private int Cod_Hospital;
     private String Fecha;
     private String Horario;
 
-    public Cita(int Cod_Cita, int Cod_Paciente, int Cod_Doctor, String Fecha, String Horario) {
+    public Cita(int Cod_Cita, int Cod_Paciente, int Cod_Doctor, int Cod_Hospital, String Fecha, String Horario) {
         this.Cod_Cita = Cod_Cita;
         this.Cod_Paciente = Cod_Paciente;
         this.Cod_Doctor = Cod_Doctor;
+        this.Cod_Hospital = Cod_Hospital;
         this.Fecha = Fecha;
         this.Horario = Horario;
     }
@@ -40,6 +42,14 @@ public class Cita {
         this.Cod_Doctor = Cod_Doctor;
     }
 
+    public int getCod_Hospital() {
+        return Cod_Hospital;
+    }
+
+    public void setCod_Hospital(int Cod_Hospital) {
+        this.Cod_Hospital = Cod_Hospital;
+    }
+
     public String getFecha() {
         return Fecha;
     }
@@ -55,4 +65,6 @@ public class Cita {
     public void setHorario(String Horario) {
         this.Horario = Horario;
     }
+
+
 }
