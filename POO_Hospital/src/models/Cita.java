@@ -8,6 +8,7 @@ public class Cita {
     private int Cod_Hospital;
     private String Fecha;
     private String Horario;
+    private String Prueba;
 
     public Cita(int Cod_Cita, int Cod_Paciente, int Cod_Doctor, int Cod_Hospital, String Fecha, String Horario) {
         this.Cod_Cita = Cod_Cita;
