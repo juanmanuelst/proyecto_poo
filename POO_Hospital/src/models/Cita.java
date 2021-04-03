@@ -49,7 +49,7 @@ public class Cita {
     public void setCod_Hospital(int Cod_Hospital) {
         this.Cod_Hospital = Cod_Hospital;
     }
-
+    
     public String getFecha() {
         return Fecha;
     }
